@@ -1,0 +1,17 @@
+[project]
+name = "rag-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
+    "langchain-groq>=1.1.2",
+    "langchain-huggingface>=1.2.1",
+    "langchain-text-splitters>=1.1.1",
+    "pymupdf>=1.27.2",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.2.3",
+]
